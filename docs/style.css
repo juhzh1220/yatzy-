@@ -1,0 +1,48 @@
+.dice_area{
+    display: flex;
+    height: 200px;
+    width: 50%;
+    /* border-style: solid;
+    border: 50px aqua;
+    border-radius: 10px; */
+    
+}
+
+.dice{
+    margin: 20px;
+    position: relative;
+}
+
+.btn{
+    width: 50%;
+    height: 200px;
+
+}
+
+.img{
+    max-width: 60px;
+    max-width: 60px;
+}
+
+.scoreboard {
+    font-family: arial,sans-serif;
+    color: #000;
+    width: 100%;
+}
+
+table {
+    border: solid 2px #333;
+    border-collapse: collapse;
+  }
+
+td{
+    border: solid 2px #333;
+    width: 10px;
+    height: 10px;
+
+}
+
+tr{
+    border: solid 2px #333;
+
+}
