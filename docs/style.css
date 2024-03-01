@@ -1,6 +1,6 @@
 .dice_area{
     display: flex;
-    height: 200px;
+    height: 100px;
     width: 50%;
     /* border-style: solid;
     border: 50px aqua;
@@ -8,9 +8,14 @@
     
 }
 
+
+
 .dice{
     margin: 20px;
     position: relative;
+}
+.dice:hover {
+    opacity: 0.5;
 }
 
 .btn{
@@ -39,6 +44,7 @@ td{
     border: solid 2px #333;
     width: 10px;
     height: 10px;
+    
 
 }
 

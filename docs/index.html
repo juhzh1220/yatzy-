@@ -9,87 +9,79 @@
 <body>
     <div id="gameboard">
         <div class ="dice_area" id = dicearea>
-            <div class ="dice" id="die1"> <img src="\docs\design_system\dice1.png" class="img" >
-            </div>
-            <div class ="dice" id="die2"><img src="\docs\design_system\dice1.png" class="img" ></div>
-            <div class ="dice" id="die3"><img src="\docs\design_system\dice1.png" class="img"></div>
-            <div class ="dice" id="die4"><img src="\docs\design_system\dice1.png" class="img"></div>
-            <div class ="dice" id="die5"><img src="\docs\design_system\dice1.png" class="img"></div>
+            <div class ="dice" id="die1" data-row="1"><img src="\docs\design_system\dice1.png" class="img"></div>
+            <div class ="dice" id="die2" data-row="2"><img src="\docs\design_system\dice1.png" class="img"></div>
+            <div class ="dice" id="die3" data-row="3"><img src="\docs\design_system\dice1.png" class="img"></div>
+            <div class ="dice" id="die4" data-row="4"><img src="\docs\design_system\dice1.png" class="img"></div>
+            <div class ="dice" id="die5" data-row="5"><img src="\docs\design_system\dice1.png" class="img"></div>
 
         </div>
-        <button type="button" class="btn">ROLL</button>
+        <button id="rollButton" class="btn">ROLL</button>
 
 
     </div>
+    <br><br>
 
     <table id="scoreboard">
         <tbody><tr>
             <th></th>
             <td class="name bottom-player-name">You</td>
         </tr>
-        <tr id="ones">
+        <tr>
             <th>Ones</th>
-            <td></td>
+            <td id="ones" data-row="0"></td>
         </tr>
-        <tr id="twos">
+        <tr>
             <th>Twos</th>
-            <td></td>
+            <td id="twos" data-row="1"></td>
         </tr>
-        <tr id="threes">
+        <tr>
             <th>Threes</th>
-            <td></td>
+            <td id="threes" data-row="2"></td>
         </tr>
-        <tr id="fours">
+        <tr >
             <th>Fours</th>
-            <td></td>
+            <td id="fours" data-row="3"></td>
         </tr>
-        <tr id="fives">
+        <tr >
             <th>Fives</th>
-            <td></td>
+            <td id="fives" data-row="4"></td>
         </tr>
-        <tr id="sixes" class="lastline">
+        <tr>
             <th>Sixes</th>
-            <td></td>
+            <td id="sixes" data-row="5"></td>
         </tr>
-        <tr id="sum">
-            <th>Sum</th>
-            <td></td>
-        </tr>
-        <tr id="bonus" class="lastline">
-            <th>Bonus</th>
-            <td></td>
-        </tr>
-        <tr id="three-of-a-kind">
+        <tr>
             <th>Three of a kind</th>
-            <td></td>
+            <td id="three-of-a-kind" data-row="6"></td>
         </tr>
-        <tr id="four-of-a-kind">
+        <tr>
             <th>Four of a kind</th>
-            <td></td>
+            <td id="four-of-a-kind" data-row="7"></td>
         </tr>
-        <tr id="full-house">
+        <tr>
             <th>Full House</th>
-            <td></td>
+            <td id="full-house" data-row="8"></td>
         </tr>
-        <tr id="small-straight">
+        <tr>
             <th>Small straight</th>
-            <td></td>
+            <td id="small-straight" data-row="9"></td>
         </tr>
-        <tr id="large-straight">
+        <tr>
             <th>Large straight</th>
-            <td></td>
+            <td id="large-straight" data-row="10"></td>
         </tr>
-        <tr id="chance">
+        <tr>
             <th>Chance</th>
-            <td></td>
+            <td id="chance" data-row="11"></td>
         </tr>
-        <tr id="yahtzee" class="lastline">
+        <tr>
             <th>YAHTZEE</th>
-            <td></td>
+            <td id="yahtzee" data-row="12"></td>
         </tr>
-        <tr id="total-score">
+        <tr>
             <th>TOTAL SCORE</th>
-            <td></td>
+            <td id="total-score"></td>
         </tr>
     </tbody></table>
     
