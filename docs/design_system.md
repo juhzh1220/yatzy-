@@ -1,0 +1,5 @@
+en tete sont les 5 des qui melangent chaque fois qu'on utlise le buton ROLL, on a un autre array pour garder les disponibilites pour chaque dice, 0 signifie non choisi 1 signifie choisi. Quand un dice est choisie, son opacity va devenir 0.5. On ne peut les choisir avant utliser le button ROLL. J'utilise un attribut pour identifier chaque dice.
+Le button est pour commencer le jeu chaque tour et melanger les dices et on ne peut pas l'utiliser a la fin de chaque tour apres 3 fois, et son opacity devient 0.5.
+le scoreboard qui construit par table change chaque fois on utlise le boutton, le score total change apres chaque tour. Pour continuer a un nouveau tour, on doit choisir un cell dans la table pour avancer, la couleur de la cell choisie devient bleu et ne peut plus choisir dans le futur.
+Apres 13 tour, le jeur va se terminer avec un message qui montre le score total.
+J'utilise Arial comme le font
